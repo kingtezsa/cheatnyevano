@@ -1,13 +1,13 @@
 if (window.location.href.search("quizizz.com/join/game/") == -1 && window.location.href.search("gameType=") == -1) {
     if (window.location.href.search("quizizz.com/join/pre-game/") != -1) {
-        alert("You cannot execute this while paused. If you are not paused please DM East_Arctica#9238 on discord!")
-        throw new Error("You cannot execute this while paused. If you think this is an error please DM East_Arctica#9238 on discord!");
+        alert("You cannot execute this while paused. If you are not paused please DM lotus.aviatrix on insta!")
+        throw new Error("You cannot execute this while paused. If you think this is an error please DM lotus.aviatrix on insta!");
     } else if (window.location.href.search("quizizz.com/join/quiz/") != -1) {
-        alert("You need to start the game before running this script. If you think this is an error please DM East_Arctica#9238 on discord!")
-        throw new Error("You need to start the game before running this script. If you think this is an error please DM East_Arctica#9238 on discord!");
+        alert("You need to start the game before running this script. If you think this is an error please DM lotus.aviatrix on insta!")
+        throw new Error("You need to start the game before running this script. If you think this is an error please lotus.aviatrix on insta!");
     } else {
-        alert("You aren't on a quizizz quiz. If you think this is an error please DM East_Arctica#9238 on discord!")
-        throw new Error("You aren't on a quizizz quiz. If you think this is an error please DM East_Arctica#9238 on discord!");
+        alert("You aren't on a quizizz quiz. If you think this is an error please DM lotus.aviatrix on insta!")
+        throw new Error("You aren't on a quizizz quiz. If you think this is an error please DM lotus.aviatrix on insta!");
     }
 }
 
